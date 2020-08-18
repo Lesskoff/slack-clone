@@ -1,0 +1,26 @@
+.sidebarOption {
+	display: flex;
+	align-items: center;
+	font-size: 12px;
+	padding: 7px 10px;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+}
+
+.sidebarOption:hover {
+	opacity: 0.9;
+	background-color: var(--slack-color-hover);
+}
+
+.sidebarOption > h3 {
+	display: flex;
+	align-items: center;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.sidebarOption > h3 > .sidebarOption__icon,
+.sidebarOption > h3 > .sidebarOption__hash {
+	margin-right: 10px;
+	font-size: inherit;
+}

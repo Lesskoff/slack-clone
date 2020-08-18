@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+:root {
+	--slack-color: #3f0f40;
+	--slack-color-hover: #340e36;
+	--slack-color-semi-light: #421f44;
+	--slack-color-light: #49274b;
+	--white-color: white;
+	--lightgray: lightgray;
+	--lightgray-light: #f8f8f8;
+	--gray: gray;
+	--green: #0a8d48;
+	--dark-green: #095e30;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+	overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app__body {
+	display: flex;
+	height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__main {
+	padding: 20px;
+	flex: 0.7;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
